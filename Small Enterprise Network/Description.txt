@@ -1,0 +1,19 @@
+Adresse réseau d'entreprise : 192.168.40.0/24
+
+nombre de sous-réseaux = 2 (2 départements)
+
+--------------------------------------------
+
+VLSM => On emprunte 1 bit
+
+255.255.255.128 => masque de sous-réseaux
+
+Sous réseau 1 : 
+Adresse de sous réseau = 192.168.40.0/25
+Plage des Adresses valides [192.168.40.1 - 192.168.40.126]
+Adresse diffusion = 192.168.40.127
+
+Sous réseau 1 : 
+Adresse de sous réseau = 192.168.40.128/25
+Plage des Adresses valides [192.168.40.129 - 192.168.40.254]
+Adresse diffusion = 192.168.40.255
